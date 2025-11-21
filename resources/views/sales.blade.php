@@ -16,6 +16,7 @@
         <h2>{{ $title }}</h2>
         <p>{{ $subtitle }}</p>
         <p>Date: {{ $date }}</p>
+        <p><b>Total Revenue: Rp {{ number_format($totalRevenue, 0, ',', '.') }}</b></p>
     </div>
 
     <table>
